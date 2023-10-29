@@ -55,5 +55,5 @@ npm start
 
 If you want to contact me, you can reach me through below handles.
 
-[![linkedin](https://img.shields.io/badge/Sumit_Sharma-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eviv3k/)
-[![Github](https://img.shields.io/badge/Sumit_Sharma-20232A?style=for-the-badge&logo=Github&logoColor=white)](https://github.com/eviv3k)
+[![linkedin](https://img.shields.io/badge/Vivek_Singh-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eviv3k/)
+[![Github](https://img.shields.io/badge/Vivek_Singh-20232A?style=for-the-badge&logo=Github&logoColor=white)](https://github.com/eviv3k)
