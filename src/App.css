@@ -22,8 +22,9 @@ textarea {
 }
 
 input,
-select {
-  width: 10rem;
+select,
+textarea {
+  width: 20rem;
 }
 
 body {
@@ -229,7 +230,7 @@ Link:link {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr 1fr;
   grid-gap: 2vw;
-  align-items: center;
+  align-items: start;
 }
 
 .testimonial-card {
@@ -375,7 +376,8 @@ footer > menu {
 
 .reservation-form {
   padding: 2rem 0 0.5rem 0;
-  text-align: center;
+  width: 80%;
+  margin: auto;
 }
 
 .reservation-form > div {
@@ -496,6 +498,13 @@ footer > menu {
 }
 
 @media screen and (max-width: 600px) {
+
+  input,
+  select,
+  textarea {
+    width: 100%;
+  }
+
   .hero-text > h1 {
     font-size: 2.2rem;
     margin-top: 0rem;

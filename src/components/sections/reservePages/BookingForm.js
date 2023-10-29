@@ -149,7 +149,6 @@ export default function ReservationForm(props) {
         <textarea
           id="comments"
           rows={8}
-          cols={50}
           placeholder="Additional Comments"
           value={comments}
           onChange={(e) => setComments(e.target.value)}
