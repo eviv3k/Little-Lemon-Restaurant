@@ -25,6 +25,15 @@
 ## Home Page
 ![home-page](https://github.com/eviv3k/Little-Lemon-Restaurant/assets/4935981/afa364d3-69b7-4b6a-986d-8ac8d1cdd353)
 
+### Specials
+![specials](https://github.com/eviv3k/Little-Lemon-Restaurant/assets/4935981/eaa3c7e9-af57-40fc-9692-8c179e98bb0b)
+
+### Testimonalis
+![Testimonails](https://github.com/eviv3k/Little-Lemon-Restaurant/assets/4935981/a5d760f2-db8b-4d92-aad6-1b37cf09516e)
+
+### About us and Footer
+![About and Footer](https://github.com/eviv3k/Little-Lemon-Restaurant/assets/4935981/c3de8730-2718-47a1-96ca-3173edb5d680)
+
 ## Reservation Page
 ![reservation](https://github.com/eviv3k/Little-Lemon-Restaurant/assets/4935981/2d112463-42ec-4182-9bb1-a8049045fab2)
 
