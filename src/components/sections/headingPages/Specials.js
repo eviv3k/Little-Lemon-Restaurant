@@ -10,7 +10,7 @@ export default function Specials() {
         <article>
           <div className="specials-topbar">
             <h1>This weeks specials!</h1>
-            <div class="actions">
+            <div className="actions">
               <a
                 className="action-button"
                 href={require("../../../assets/menu.webp")}
