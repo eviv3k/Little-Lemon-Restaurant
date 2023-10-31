@@ -5,8 +5,8 @@ import About from "../sections/headingPages/About";
 export default function Homepage() {
   return (
     <>
-      <Heading />
       <main>
+        <Heading />
         <Specials />
         <Testimonials />
         <About />

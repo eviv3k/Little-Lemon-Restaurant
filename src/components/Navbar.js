@@ -9,8 +9,10 @@ export default function Navbar() {
   }
 
   return (
-    <nav>
-      <nav className="burger">
+    <header id="top-header" className="container">
+      <nav>
+        <Navigation device="desktop" />
+        {/* <nav className="burger">
         <img
           src={require("../assets/nav-logo.png")}
           alt="Little Lemon logo"
@@ -22,7 +24,8 @@ export default function Navbar() {
         </button>
       </nav>
       <Navigation device="desktop" />
-      {navbarOpen ? <Navigation device="mobile" /> : ""}
-    </nav>
+      {navbarOpen ? <Navigation device="mobile" /> : ""} */}
+      </nav>
+    </header>
   );
 }
