@@ -1,7 +1,7 @@
-import Heading from "../sections/reservePages/Heading";
-import ReservationForm from "../sections/reservePages/BookingForm";
 import { useReducer } from "react";
 import { fetchAPI } from "../../bookingsAPI";
+import ReserveTable from "../sections/reservePages/ReserveTable";
+import ImagesReserve from "../sections/reservePages/ImagesReserve";
 export default function BookingPage() {
   function updateTimes(date) {
     return fetchAPI(date);
@@ -13,8 +13,13 @@ export default function BookingPage() {
 
   return (
     <>
-      <Heading />
-      <ReservationForm availableTimes={availableTimes} updateTimes={dispatch} />
+    <div className="reserve-top">
+      <ReserveTable />
+    </div>
+    <div>
+      <ImagesReserve />
+    </div>
     </>
+    
   );
 }

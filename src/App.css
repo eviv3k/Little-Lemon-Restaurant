@@ -28,17 +28,79 @@ nav ul {
   margin: auto;
 }
 
+/* select {
+  padding: 0.2em  0.5em 0.2em 1.5em;
+  background-color: #000;
+  background-repeat: no-repeat;
+	background-size: 0.8em auto;
+	background-position: 0.4em center;
+	font-size: 1.5em;
+	color: #fff;
+} */
+
+.select-container {
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  background-color: #fff;
+  padding: 12px 0;
+  margin-top: 8px;
+}
+
+.icon {
+  margin: 0 10px;
+  font-size: 24px;
+  color: #495e57;
+}
+
+.custom-select {
+  border: none;
+  width: 100%;
+  outline: none;
+  background-color: transparent;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  color: #495e57;
+}
+
+.input-radio {
+  float: right;
+  width: unset;
+}
+
+.marign-top {
+  margin-top: 24px;
+}
+
+.marign-bottom {
+  margin-bottom: 24px;
+}
+
+.weight-700{
+  font-weight: 700;
+}
+
+.width-80 {
+  width: 95%;
+}
+
+.width-30 {
+  width:50%;
+}
+
+label {
+  color: white;
+}
+
 label,
 input,
-select,
 textarea,
 p {
   font-family: "Karla";
 }
 
 input,
-select,
-option,
 textarea {
   background-color: #eeeeee;
   border: none;
@@ -114,6 +176,10 @@ Link:link {
   text-align: center;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+}
+
+.text-align{
+  text-align: center;
 }
 
 .mobile {
@@ -205,6 +271,13 @@ Link:link {
   margin: auto;
 }
 
+.image-grid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2vw;
+}
+
 .specials-topbar > h1 {
   font-size: 2.5rem;
   margin-right: 1rem;
@@ -253,6 +326,14 @@ Link:link {
 
 .menu-card-content > p {
   height: 80px;
+}
+
+
+.image-card > img {
+  width: 100%;
+  height: 65%;
+  object-fit: cover;
+  border-radius: 2rem;
 }
 
 .special-button {
@@ -414,6 +495,21 @@ footer {
 }
 
 /* RESERVE A TABLE */
+.reserve-top {
+  background-color: #495e57;
+}
+
+.reserve > h1 {
+  font-size: 2.5rem;
+  color: #f4ce14;
+  margin: 0;
+}
+
+.reserve-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 18px 0;
+}
 .reserve-table {
   position: relative;
   text-align: center;
